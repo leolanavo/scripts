@@ -50,10 +50,12 @@ gpg --lsign 0FC3042E345AD05D
 
 # AUR packages
 yaourt -S google-chrome spotify gnome-software \
-          neovim-symlinks polybar-git i3-gaps \
+          polybar-git i3-gaps \
           lightdm-webkit2-greeter gnome-software \
           sublime-text-dev neofetch light discord \
           lightdm-webkit2-theme-material2 --noconfirm
+
+yaourt -S neovim-symlinks
 
 # Dotfiles installation
 git clone http://github.com/leolanavo/dotfiles /home/lana/dotfiles
