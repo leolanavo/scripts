@@ -19,7 +19,7 @@ pacman -Sy
 # Packages
 pacman -S xorg-server xorg-xinit xorg-twm xorg-xclock xterm xclip xorg-xrandr \
           wpa_supplicant dialog networkmanager openssh network-manager-applet \
-          acpi intel-ucode libinput pulseaudio alsa-utils bluez bluez-utils \
+          ntp acpi intel-ucode libinput pulseaudio alsa-utils bluez bluez-utils \
           gnome gdm gnome-extra gnome-tweak-tool \
           file-roller neovim htop evince ranger termite compton \
           zsh feh maim sxiv mpd pavucontrol blueberry wget cmatrix atril \
