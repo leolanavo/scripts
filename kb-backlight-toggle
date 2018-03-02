@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+k_lvl="/sys/class/leds/samsung::kbd_backlight/brightness"
+value="$(cat $k_lvl)"
+if [ $value -eq 0 ]; then
+    value=7
+else
+    value=0
+fi
+
+echo $value > $k_lvl
